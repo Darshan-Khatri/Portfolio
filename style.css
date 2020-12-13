@@ -1,0 +1,50 @@
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px; 
+}
+
+.mainBody{
+    background-color: black;
+}
+
+.leftbox{
+    color: white;
+    background-color: gray;
+    background-color: #211d1dd4;
+    width: fit-content;
+    height: 98vh;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    position: sticky;
+}
+
+.NameHeading{
+    position: relative;
+    margin-top: 50px;
+    color: rgb(210, 183, 30);
+    
+}
+.name{
+    border-bottom:3px solid;
+}
+.NavLinks ul{
+    list-style-type: none;
+}
+.NavLinks{
+    /* border: 2px solid green; */
+    margin-top: 70%;
+}
+
+.NavLinks li{
+    cursor: pointer;
+    border-bottom: 2px solid darkgrey;
+    margin: 17px 2px;
+    padding: 5px;
+}
+.NavLinks li:hover{
+    color: darkslategray;
+    border-bottom: 2px solid darkslategray;
+}
