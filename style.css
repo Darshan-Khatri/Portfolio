@@ -59,9 +59,10 @@
     border-bottom: 2px solid darkslategray;
 }
 
-.Mycontainer{
-    top: 20%;
+.Hide{
+    display: none;
 }
-.home{
-    border: 2px solid white;
+
+.Show{
+    display: block;
 }
