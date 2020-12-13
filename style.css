@@ -8,15 +8,22 @@
     background-color: black;
 }
 
-.leftbox{
+.grid-container{
+    display: grid;
     color: white;
-    background-color: gray;
+    /* border: 2px solid red; */
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 100vh ;
+    
+}
+
+.grid-item{
+    background-color: black;
+}
+.grid-item-1{
+    color: white;
     background-color: #211d1dd4;
-    width: fit-content;
-    height: 98vh;
-    margin: 5px;
     padding: 10px;
-    position: relative;
     border-radius: 5px;
     position: sticky;
 }
@@ -28,14 +35,17 @@
     
 }
 .name{
+    display: inline-block;
+    margin-left: 12px;
     border-bottom:3px solid;
+    width: auto;
 }
 .NavLinks ul{
     list-style-type: none;
 }
 .NavLinks{
     /* border: 2px solid green; */
-    margin-top: 70%;
+    margin-top: 40%;
 }
 
 .NavLinks li{
@@ -47,4 +57,11 @@
 .NavLinks li:hover{
     color: darkslategray;
     border-bottom: 2px solid darkslategray;
+}
+
+.Mycontainer{
+    top: 20%;
+}
+.home{
+    border: 2px solid white;
 }
