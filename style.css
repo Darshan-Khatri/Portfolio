@@ -87,3 +87,31 @@
 .aboutDescription p{
     margin-top: 10px;
 }
+
+.about_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    /* border: 2px solid; */
+    /* grid-column-gap: 5px; */
+}
+
+.about_grid_item{
+    /* border: 2px solid red; */
+    padding: 5px;
+}
+
+.about_grid_item ul{
+    list-style-type: none;
+}
+.about_grid_item li{
+    padding: 5px;
+}
+
+.progress{
+    margin: 5px;
+}
+
+.progress_bar span{
+    margin: 1px 5px;
+}
