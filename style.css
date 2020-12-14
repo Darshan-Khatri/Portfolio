@@ -66,3 +66,24 @@
 .Show{
     display: block;
 }
+
+/* *****ABOUT**************************** */
+.aboutContent{
+    margin-left: 20px;
+}
+
+.aboutHeading{
+    margin-top: 35px;
+}
+.aboutDescription{
+    margin-top: 40px;
+}
+
+.aboutDescription h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutDescription p{
+    margin-top: 10px;
+}
