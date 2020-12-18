@@ -115,3 +115,19 @@
 .progress_bar span{
     margin: 1px 5px;
 }
+
+/* ***********PROJECT*********************** */
+
+.projectBox{
+    margin: 9px;
+    padding: 20px;
+}
+.p1{
+    border: 2px solid #d2b71e;
+    margin-top: 19px;
+    padding: 12px;
+    border-radius: 5px;
+}
+hr{
+    border-top:1px solid rgb(140 127 127 / 68%) !important;
+}
