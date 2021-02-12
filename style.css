@@ -28,12 +28,18 @@
     position: sticky;
 }
 
+
 .NameHeading{
     position: relative;
     margin-top: 50px;
     color: rgb(210, 183, 30);
     
 }
+
+.NameHeading div img{
+    border: 6px solid rgb(226, 215, 215) 
+}
+
 .name{
     display: inline-block;
     margin-left: 12px;
@@ -45,7 +51,7 @@
 }
 .NavLinks{
     /* border: 2px solid green; */
-    margin-top: 40%;
+    margin-top: 17%;
 }
 
 .NavLinks li{
@@ -58,6 +64,11 @@
     color: darkslategray;
     border-bottom: 2px solid darkslategray;
 }
+
+/* .photo img{
+   border: 3px solid grey;
+   border-radius: 5px;
+} */
 
 .Hide{
     display: none;
